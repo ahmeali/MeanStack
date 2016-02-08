@@ -1,0 +1,9 @@
+npm install express-generator --g
+express . --hbs
+Express Middleware
+    Functions that are executed in a specific sequence on every
+    request or for requests that match a given path pattern and
+    Http verb .
+
+get all records from collection that have a username column
+    db.users.find({username:{$exists:true}})
